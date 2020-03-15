@@ -1,2 +1,1 @@
-# practice-dubbo
-# dubbo-storage
+# storage_dubbo
