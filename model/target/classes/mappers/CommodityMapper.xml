@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.storage.model.mapper.CommodityMapper">
+
+  <resultMap id="BaseResultMap" type="com.storage.model.entity.Commodity">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="isValid" jdbcType="VARCHAR" property="isvalid" />
+    <result column="createdTime" jdbcType="TIMESTAMP" property="createdtime" />
+    <result column="updateTime" jdbcType="TIMESTAMP" property="updatetime" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+  </resultMap>
+
+  <sql id="baseColumn">
+    id, code, name, description, price, isValid, createdTime,updateTime,number
+  </sql>
+
+  <select id="selectAllBySearch" resultType="com.storage.model.entity.Commodity">
+    SELECT <include refid="baseColumn"/>
+    FROM t_sys_commodity
+    WHERE isValid='Y'
+    <if test="search != null and search != '' and search != 'null' ">
+      AND name LIKE CONCAT('%', '${search}', '%')
+    </if>
+    ORDER BY createdTime DESC
+  </select>
+
+</mapper>
