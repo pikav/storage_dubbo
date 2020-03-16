@@ -1,5 +1,5 @@
 启动说明：
-  1. 需要下载zookeeper提供服务注册、服务发现
+  1. 需要下载zookeeper作为注册中心
   2. 先启动zookeeper, 然后分别启动order 和 storage(在我另外一个仓库：https://github.com/pikav/order-dubbo.git) 即可
   3. 里面有两种服务调用方式：dubbo 和 rest 
   
