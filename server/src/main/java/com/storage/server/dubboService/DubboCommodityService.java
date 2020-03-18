@@ -11,9 +11,6 @@ import com.storage.server.util.ValidateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestParam;
-import sun.security.krb5.internal.PAData;
-
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
@@ -22,7 +19,7 @@ import javax.ws.rs.core.MediaType;
  * @author pikav
  * @date 2020-3-7
  */
-@Service(protocol = {"dubbo","rest"}, validation = "true", version = "1.0", timeout = 3000)
+@Service
 @Path("commodity")
 public class DubboCommodityService implements IDubboCommodityService {
 

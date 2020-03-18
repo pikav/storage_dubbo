@@ -2,3 +2,4 @@ com\storage\server\dubboService\DubboCommodityService.class
 com\storage\server\util\ValidateUtil.class
 com\storage\server\util\ConstantsUtil.class
 com\storage\server\BootApplication.class
+com\storage\server\dubboService\DubboTestService.class

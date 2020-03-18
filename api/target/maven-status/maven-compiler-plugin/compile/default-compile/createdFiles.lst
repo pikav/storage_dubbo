@@ -1,3 +1,4 @@
 com\storage\api\enums\ResponseStatus.class
-com\storage\api\service\IDubboCommodityService.class
 com\storage\api\response\BaseResponse.class
+com\storage\api\service\IDubboCommodityService.class
+com\storage\api\service\IDubboTestService.class

@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ImportResource;
  * @date: 2020-3-7
  */
 @SpringBootApplication
-@ImportResource(value = {"classpath:spring/spring-jdbc.xml","classpath:spring/spring-dubbo.xml"})
+@ImportResource(value = {"classpath:spring/spring-jdbc.xml", "classpath:spring/spring-dubbo-dev.xml"})
 @MapperScan(basePackages = "com.storage.model.mapper")
 public class BootApplication extends SpringBootServletInitializer {
 
