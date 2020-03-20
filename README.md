@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# storage
-=======
 启动说明：
   1. 需要下载zookeeper作为注册中心
   2. 先启动zookeeper, 然后分别启动order 和 storage(在我另外一个仓库：https://github.com/pikav/order-dubbo.git) 即可
@@ -20,4 +17,4 @@
   4. dubbo方式调用远程服务, 返回类型如果是对象的话, 需要给对应类添加无参的构造函数
   5. 还有很多忘记记录了....
 
->>>>>>> 3cd3a628bb32ee39638576744f447231b4af9c40
+
