@@ -18,6 +18,7 @@
   5. 还有很多忘记记录了....
 
 sql:
+
 SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `t_sys_commodity`;
