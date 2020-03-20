@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc64b97-50cd-4f51-b475-c2fc01e19ed6" name="Default" comment="整合redis和kafka">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ddc64b97-50cd-4f51-b475-c2fc01e19ed6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/storage/api/enums/ResponseStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/storage/api/enums/ResponseStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/storage/api/response/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/storage/api/response/BaseResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/classes/com/storage/api/service/IDubboCommodityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/classes/com/storage/api/service/IDubboCommodityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/com/storage/model/entity/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/storage/model/entity/Commodity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/order-center.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/order-center.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/storage/server/dubboService/DubboCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/storage/server/dubboService/DubboCommodityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/storage/server/BootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/storage/server/BootApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/storage/server/dubboService/DubboCommodityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/storage/server/dubboService/DubboCommodityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/storage/server/util/ConstantsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/storage/server/util/ConstantsUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/storage/server/util/ValidateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/storage/server/util/ValidateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/dubboOne-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/dubboOne-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/dubboOne-1.0.1.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/dubboOne-1.0.1.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.0.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.6" beforeDir="false" afterPath="$PROJECT_DIR$/storage.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.7" beforeDir="false" afterPath="$PROJECT_DIR$/storage.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.8" beforeDir="false" afterPath="$PROJECT_DIR$/storage.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.9" beforeDir="false" afterPath="$PROJECT_DIR$/storage.9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -62,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spring-dubbo-dev.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spring-dubbo-dev.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="450">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BootApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -100,6 +56,7 @@
         <option value="$PROJECT_DIR$/server/src/main/resources/dubbo.properties" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/storage/server/dubboService/DubboTestService.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev2.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev.xml" />
       </list>
     </option>
   </component>
@@ -132,8 +89,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="46" />
     <option name="y" value="155" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
@@ -153,91 +110,6 @@
             <path>
               <item name="storage" type="b2602c69:ProjectViewProjectNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="dubboService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,15 +204,24 @@
       <option name="presentableId" value="Default" />
       <updated>1584424025755</updated>
       <workItem from="1584424027160" duration="5293000" />
-      <workItem from="1584429628320" duration="7451000" />
+      <workItem from="1584429628320" duration="10122000" />
+      <workItem from="1584681421926" duration="424000" />
     </task>
+    <task id="LOCAL-00001" summary="整合redis和kafka">
+      <created>1584494282874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584494282874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12744000" />
+    <option name="totallyTimeSpent" value="15839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -354,7 +235,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33238232" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -363,7 +243,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.28388017" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -371,6 +251,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -392,6 +273,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/dubboService/DubboCommodityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -420,13 +315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/dubbo.properties" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/storage/api/service/IDubboTestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -467,13 +356,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/dubbo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/dubbo.properties" />
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/dubboService/DubboCommodityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -481,17 +364,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev.xml">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="225">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/storage/server/BootApplication.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/spring/spring-dubbo-dev.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="450">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
