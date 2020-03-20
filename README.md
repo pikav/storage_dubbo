@@ -10,11 +10,35 @@
   搭建一个项目真的是报错不断, 不知道解决了多少个报错了,总结一下这几点：
   1. 此项目为多模块项目, 如果设置mybatis.mapper-locations=classpath:mappers/*.xml, 会出现读取不到mapperXml文件
      解决： 把classpath 设置成 classpath*
-  2. 使用OKHTTP调用的远程服务时, 被调用的方法必须指定响应实体的数据类型：@Produces(value = MediaType.xxxxx), 不然消费者无法通过objectMapper解      析接收的数据
+  2. 使用OKHTTP调用的远程服务时, 被调用的方法必须指定响应实体的数据类型：@Produces(value = MediaType.xxxxx), 不然消费者无法通过   objectMapper解      析接收的数据
      解决： 给方法加上注解@Produces(value = MediaType.APPLICATION_JSON)
   3. 直接启动多模块项目访问不到jsp文件
      解决： 将 working directory 设置为 $MODULE_DIR$
   4. dubbo方式调用远程服务, 返回类型如果是对象的话, 需要给对应类添加无参的构造函数
   5. 还有很多忘记记录了....
+
+sql:
+SET FOREIGN_KEY_CHECKS=0;
+
+DROP TABLE IF EXISTS `t_sys_commodity`;
+CREATE TABLE `t_sys_commodity` (
+  `id` varchar(36) NOT NULL,
+  `code` varchar(36) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `description` varchar(2000) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL,
+  `isValid` varchar(2) DEFAULT NULL,
+  `createdTime` datetime DEFAULT NULL,
+  `updateTime` datetime DEFAULT NULL,
+  `number` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `t_sys_commodity` VALUES ('1', '10001', '神舟战神笔记本', '玩游戏必备', '58.50', 'Y', '2019-02-03 14:07:58', null, '66');
+INSERT INTO `t_sys_commodity` VALUES ('2', '10002', '生发喷雾', '程序猿求着要', '58.50', 'Y', '2019-02-03 14:07:58', null, '3');
+INSERT INTO `t_sys_commodity` VALUES ('3', '10003', 'NBA专用篮球', '喜欢打篮球就买吧', '258.50', 'Y', '2019-02-03 14:07:58', null, '4');
+INSERT INTO `t_sys_commodity` VALUES ('4', '10004', '折叠屏手机', '超乎你的想象', '10258.50', 'Y', '2019-02-03 14:07:58', null, '1');
+INSERT INTO `t_sys_commodity` VALUES ('5', '10005', '隐形的翅膀', '谁买谁知道', '9.90', 'Y', '2019-02-03 14:07:58', null, '2');
+INSERT INTO `t_sys_commodity` VALUES ('6', '10006', '皮卡猪', '无价的', '999999.90', 'Y', '2019-02-03 14:07:58', null, '55');
 
 
