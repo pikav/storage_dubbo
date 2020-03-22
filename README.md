@@ -1,10 +1,14 @@
 启动说明：
   1. 需要下载zookeeper作为注册中心
-  2. 先启动zookeeper, 然后分别启动order 和 storage(在我另外一个仓库：https://github.com/pikav/order-dubbo.git) 即可
-  3. 里面有两种服务调用方式：dubbo 和 rest 
+  2. 需要下载redis做缓存功能
+  3. 需要下载kafka做消息中间件
+  4. 先启动zookeeper, 然后启动redis、kafka, 最后分别启动order和storage(在我另外一个仓库：https://github.com/pikav/order-dubbo.git) 即可
+  5. 里面有两种服务调用方式：dubbo 和 rest 
   
 总结：
-  本项目主要是对dubbo框架的实践, 在搭建的过程觉得dubbo非常类似调用webservice接口的一种方式：使用webservice client解析wsdl文件生成java代码, 然后将java代码打成jar包, 引入进项目, 项目调用webservice接口就像调用jar里的方法一样去调用, 也就是跟dubbo一样调用远程服务就像调用本地方法一样。
+  本项目主要是对dubbo框架的实践, 在搭建的过程觉得dubbo非常类似调用webservice接口的一种方式：使用webservice client解析wsdl文件生成java代码, 
+  然后将java代码打成jar包, 引入进项目, 项目调用webservice接口就像调用jar里的方法一样去调用, 也就是跟dubbo一样调用远程服务就像调用本地方法一样。
+  但是,webservice不是分布式的,没有软负载均衡。
   
 踩坑：
   搭建一个项目真的是报错不断, 不知道解决了多少个报错了,总结一下这几点：
